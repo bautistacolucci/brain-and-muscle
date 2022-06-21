@@ -8,6 +8,21 @@
   width: auto;
   height: 100vh;
 }
+.section0 .titulo {
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
+}
+.section0 .div-header {
+  display: flex;
+}
+.section0 .div-header .div-nav {
+  justify-content: space-around;
+  /* ul {
+      li { 
+          padding: 1rem;
+      }
+  } */
+}
 .section0 .div {
   position: absolute;
   bottom: 7rem;
