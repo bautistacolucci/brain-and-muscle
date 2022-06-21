@@ -1,0 +1,19 @@
+{
+  "name": "brain-and-muscle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bautistacolucci/brain-and-muscle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bautistacolucci/brain-and-muscle/issues"
+  },
+  "homepage": "https://github.com/bautistacolucci/brain-and-muscle#readme"
+}
