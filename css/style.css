@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 /* Header y banner */
 .section-header {
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/portada.webp");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -49,7 +49,7 @@
 
 .space-background {
   height: 50vh;
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../img/fondo.webp");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 
 .space-background-2 {
   height: 50vh;
-  background-image: url("../img/fondo2.jpg");
+  background-image: url("../img/fondo2.webp");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
