@@ -39,11 +39,10 @@
 .section-conteiner h2 {
   font-family: "Poppins";
   font-size: 2rem;
+  text-align: start;
 }
 .section-conteiner p {
   font-family: "Raleway";
-  font-size: 1.2rem;
-  font-weight: 400;
   text-align: justify;
 }
 
@@ -70,8 +69,6 @@
   .div-banner {
     bottom: 10vh;
     left: 5vw;
-    color: #fff;
-    font-family: "Bebas Neue";
     font-size: 4rem;
   }
   .div-banner span {
@@ -81,25 +78,15 @@
   .section-conteiner div {
     padding: 7rem 11rem;
   }
-  .section-conteiner h2 {
-    font-family: "Poppins";
-    font-size: 2rem;
-    text-align: center;
-  }
   .section-conteiner p {
-    font-family: "Raleway";
     font-size: 1.2rem;
-    font-weight: 400;
     line-height: 2.3rem;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 992px) {
   .div-banner {
     bottom: 10vh;
     left: 5vw;
-    color: #fff;
-    font-family: "Bebas Neue";
     font-size: 4rem;
   }
   .div-banner span {
@@ -109,25 +96,15 @@
   .section-conteiner div {
     padding: 6rem 8rem;
   }
-  .section-conteiner h2 {
-    font-family: "Poppins";
-    font-size: 2rem;
-    text-align: center;
-  }
   .section-conteiner p {
-    font-family: "Raleway";
     font-size: 1.2rem;
-    font-weight: 400;
     line-height: 2.3rem;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 768px) {
   .div-banner {
     bottom: 10vh;
     left: 5vw;
-    color: #fff;
-    font-family: "Bebas Neue";
     font-size: 3.5rem;
   }
   .div-banner span {
@@ -137,25 +114,15 @@
   .section-conteiner div {
     padding: 3rem 5rem;
   }
-  .section-conteiner h2 {
-    font-family: "Poppins";
-    font-size: 2rem;
-    text-align: center;
-  }
   .section-conteiner p {
-    font-family: "Raleway";
     font-size: 1.1rem;
-    font-weight: 400;
     line-height: 2.1rem;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 576px) {
   .div-banner {
     bottom: 8vh;
     left: 4vw;
-    color: #fff;
-    font-family: "Bebas Neue";
     font-size: 2.5rem;
   }
   .div-banner span {
@@ -165,16 +132,8 @@
   .section-conteiner div {
     padding: 4rem 2.5rem;
   }
-  .section-conteiner h2 {
-    font-family: "Poppins";
-    font-size: 2rem;
-    text-align: center;
-  }
   .section-conteiner p {
-    font-family: "Raleway";
     font-size: 1.1rem;
-    font-weight: 400;
-    text-align: justify;
   }
 }
 
