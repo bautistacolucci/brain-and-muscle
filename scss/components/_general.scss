@@ -3,6 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+li {
+    list-style: none;
+}
+
 /* Header y banner */
 .section-header {
     background-image: url("../img/portada.webp");
@@ -26,10 +39,11 @@
             font-family: 'Bebas Neue';
             font-size: 1.2rem;
             color: #fff;
+            letter-spacing: .7px;
             transition: all .5s;
 
             &:hover {
-                letter-spacing: 1.1px;
+                letter-spacing: 1.3px;
             }
         }
     }
@@ -44,7 +58,9 @@
 }
 
 /* Sections */
-.section-conteiner {
+.section-container {
+    min-height: 50vh;
+
     h2 {
         font-family: 'Poppins';
         font-size: 2rem;
@@ -89,7 +105,7 @@
         }
     }
 
-    .section-conteiner {
+    .section-container {
         div {
             padding: 7rem 11rem;
         }
@@ -112,7 +128,7 @@
         }
     }
 
-    .section-conteiner {
+    .section-container {
         div {
             padding: 6rem 8rem;
         }
@@ -135,7 +151,7 @@
         }
     }
 
-    .section-conteiner {
+    .section-container {
         div {
             padding: 3rem 5rem;
         }
@@ -158,7 +174,7 @@
         }
     }
 
-    .section-conteiner {
+    .section-container {
         div {
             padding: 4rem 2.5rem;
         }

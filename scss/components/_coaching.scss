@@ -1,0 +1,87 @@
+.section-header-coaching {
+    background-image: url('../../img/portada2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    header {
+        backdrop-filter: grayscale(100%) blur(1px);
+    }
+
+    .titulo {
+        font-family: 'Bebas Neue';
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+
+    .div-nav {
+        a {
+            font-family: 'Bebas Neue';
+            font-size: 1.2rem;
+            color: #fff;
+            letter-spacing: .7px;
+            transition: all .5s;
+
+            &:hover {
+                letter-spacing: 1.3px;
+            }
+        }
+    }
+
+    .div-banner {
+        backdrop-filter: grayscale(100%);
+        padding: 1rem;
+        position: absolute;
+        color: #fff;
+        font-family: 'Bebas Neue';
+    }
+}
+
+/* Sections */
+.section-container-coaching {
+    padding: 2.5rem 5rem;
+
+    .micard {
+        background-image: url('../../img/card.jpg');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        margin: 2rem;
+        width: 40vw;
+
+        transition: .27s;
+
+        div {
+            transition: .4s;
+
+            h2 {
+                font-family: 'Bebas Neue';
+                font-size: 3.5rem;
+                text-align: center;
+                letter-spacing: 10px;
+                padding: 14rem 0 10rem 0;
+                font-weight: 300;
+            }
+
+            .button {
+                padding: 2.5rem;
+                display: block;
+                text-align: center;
+                font-family: 'Bebas Neue';
+                font-size: 2rem;
+                letter-spacing: 10px;
+                color: #fff;
+                transition:.5s;
+                &:hover {
+                    color: #50ddaa;
+                }
+            }
+
+            &:hover {
+                /* backdrop-filter: ; */
+                backdrop-filter: grayscale(100%) blur(1px) brightness(100%);
+            }
+        }
+    }
+}

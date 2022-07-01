@@ -2,6 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
 /* Header y banner */
 .section-header {
   background-image: url("../img/portada.webp");
@@ -22,10 +34,11 @@
   font-family: "Bebas Neue";
   font-size: 1.2rem;
   color: #fff;
+  letter-spacing: 0.7px;
   transition: all 0.5s;
 }
 .section-header .div-nav a:hover {
-  letter-spacing: 1.1px;
+  letter-spacing: 1.3px;
 }
 .section-header .div-banner {
   backdrop-filter: grayscale(100%);
@@ -36,12 +49,15 @@
 }
 
 /* Sections */
-.section-conteiner h2 {
+.section-container {
+  min-height: 50vh;
+}
+.section-container h2 {
   font-family: "Poppins";
   font-size: 2rem;
   text-align: start;
 }
-.section-conteiner p {
+.section-container p {
   font-family: "Raleway";
   text-align: justify;
 }
@@ -75,10 +91,10 @@
     font-size: 8rem;
   }
 
-  .section-conteiner div {
+  .section-container div {
     padding: 7rem 11rem;
   }
-  .section-conteiner p {
+  .section-container p {
     font-size: 1.2rem;
     line-height: 2.3rem;
   }
@@ -93,10 +109,10 @@
     font-size: 8rem;
   }
 
-  .section-conteiner div {
+  .section-container div {
     padding: 6rem 8rem;
   }
-  .section-conteiner p {
+  .section-container p {
     font-size: 1.2rem;
     line-height: 2.3rem;
   }
@@ -111,10 +127,10 @@
     font-size: 7rem;
   }
 
-  .section-conteiner div {
+  .section-container div {
     padding: 3rem 5rem;
   }
-  .section-conteiner p {
+  .section-container p {
     font-size: 1.1rem;
     line-height: 2.1rem;
   }
@@ -129,12 +145,86 @@
     font-size: 5rem;
   }
 
-  .section-conteiner div {
+  .section-container div {
     padding: 4rem 2.5rem;
   }
-  .section-conteiner p {
+  .section-container p {
     font-size: 1.1rem;
   }
+}
+.section-header-coaching {
+  background-image: url("../../img/portada2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.section-header-coaching header {
+  backdrop-filter: grayscale(100%) blur(1px);
+}
+.section-header-coaching .titulo {
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+.section-header-coaching .div-nav a {
+  font-family: "Bebas Neue";
+  font-size: 1.2rem;
+  color: #fff;
+  letter-spacing: 0.7px;
+  transition: all 0.5s;
+}
+.section-header-coaching .div-nav a:hover {
+  letter-spacing: 1.3px;
+}
+.section-header-coaching .div-banner {
+  backdrop-filter: grayscale(100%);
+  padding: 1rem;
+  position: absolute;
+  color: #fff;
+  font-family: "Bebas Neue";
+}
+
+/* Sections */
+.section-container-coaching {
+  padding: 2.5rem 5rem;
+}
+.section-container-coaching .micard {
+  background-image: url("../../img/card.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin: 2rem;
+  width: 40vw;
+  transition: 0.27s;
+}
+.section-container-coaching .micard div {
+  transition: 0.4s;
+}
+.section-container-coaching .micard div h2 {
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 14rem 0 10rem 0;
+  font-weight: 300;
+}
+.section-container-coaching .micard div .button {
+  padding: 2.5rem;
+  display: block;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+  letter-spacing: 10px;
+  color: #fff;
+  transition: 0.5s;
+}
+.section-container-coaching .micard div .button:hover {
+  color: #50ddaa;
+}
+.section-container-coaching .micard div:hover {
+  /* backdrop-filter: ; */
+  backdrop-filter: grayscale(100%) blur(1px) brightness(100%);
 }
 
 /*# sourceMappingURL=style.css.map */
