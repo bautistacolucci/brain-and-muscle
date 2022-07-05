@@ -41,6 +41,7 @@
 /* Sections */
 .section-container-coaching {
     padding: 2.5rem 5rem;
+    /* min-height: 100vh; */
 
     .micard {
         background-image: url('../../img/card.jpg');
@@ -51,9 +52,10 @@
         width: 40vw;
 
         transition: .27s;
+        
 
         div {
-            transition: .4s;
+            transition: .5s;
 
             h2 {
                 font-family: 'Bebas Neue';
@@ -72,15 +74,15 @@
                 font-size: 2rem;
                 letter-spacing: 10px;
                 color: #fff;
-                transition:.5s;
+                transition: .5s;
+
                 &:hover {
                     color: #50ddaa;
                 }
             }
-
             &:hover {
-                /* backdrop-filter: ; */
-                backdrop-filter: grayscale(100%) blur(1px) brightness(100%);
+                /* background-color: #000; */
+                backdrop-filter: grayscale(100%) blur(1px) brightness(0%);
             }
         }
     }
