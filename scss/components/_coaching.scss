@@ -1,3 +1,4 @@
+/* Header Coaching */
 .section-header-coaching {
     background-image: url('../../img/portada2.jpg');
     background-attachment: fixed;
@@ -40,8 +41,8 @@
 
 /* Sections */
 .section-container-coaching {
-    padding: 2.5rem 5rem;
-    /* min-height: 100vh; */
+    padding: 2.5rem;
+    min-height: 100vh;
 
     .micard {
         background-image: url('../../img/card.jpg');
@@ -49,41 +50,110 @@
         background-position: center;
         color: #fff;
         margin: 2rem;
-        width: 40vw;
-
-        transition: .27s;
-        
 
         div {
+            position: relative;
+            width: 100%;
+            height: 100%;
             transition: .5s;
 
             h2 {
                 font-family: 'Bebas Neue';
                 font-size: 3.5rem;
-                text-align: center;
-                letter-spacing: 10px;
-                padding: 14rem 0 10rem 0;
                 font-weight: 300;
+                letter-spacing: 10px;
+                text-align: center;
+                position: relative;
+                top: 40%;
             }
 
-            .button {
-                padding: 2.5rem;
+            .detail {
                 display: block;
-                text-align: center;
+
                 font-family: 'Bebas Neue';
                 font-size: 2rem;
                 letter-spacing: 10px;
                 color: #fff;
+                text-align: center;
+                position: relative;
+                top: 70%;
                 transition: .5s;
 
                 &:hover {
                     color: #50ddaa;
                 }
             }
+
             &:hover {
-                /* background-color: #000; */
-                backdrop-filter: grayscale(100%) blur(1px) brightness(0%);
+                backdrop-filter: grayscale(100%) blur(1px) brightness(50%);
             }
+        }
+    }
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1200px) {
+    .section-container-coaching {
+        .micard {
+            width: 40vw;
+            height: 35rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section-container-coaching {
+        padding: 1rem;
+
+        .micard {
+            width: 40vw;
+            height: 25rem;
+            margin: 1.5rem;
+
+            div {
+                h2 {
+                    font-size: 3rem;
+                }
+
+                .detail {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-container-coaching {
+        padding: 1.5rem;
+
+        .micard {
+            width: 90vw;
+            height: 40rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-container-coaching {
+        padding: 1rem;
+
+        .micard {
+            width: 90vw;
+            height: 30rem;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-container-coaching {
+        padding: .5rem;
+
+        .micard {
+            width: 90vw;
+            height: 30rem;
+            margin: 1rem 0;
         }
     }
 }
