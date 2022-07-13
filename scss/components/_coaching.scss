@@ -39,7 +39,7 @@
     }
 }
 
-/* Sections */
+/* Section cards */
 .section-container-coaching {
     padding: 2.5rem;
     min-height: 100vh;
@@ -91,6 +91,63 @@
     }
 }
 
+/* Section detail */
+
+#detallePlanes {
+    margin: 5rem auto;
+    width: 50vw;
+    border-top: 3px solid #50ddaa;
+
+    h3 {
+        margin: 2rem 0;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 3rem;
+    }
+
+    p {
+        font-family: 'Raleway''Poppins';
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    .items {
+        text-align: center;
+        margin: 4rem 0;
+
+        p {
+            display: inline;
+        }
+
+        span {
+            margin: 0 2rem;
+            border: 1px solid #50ddaa;
+        }
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        padding: .5rem;
+        margin: 2rem 0;
+        border-radius: 2px;
+        background-color: #50ddaa;
+        color: #000;
+
+        transition: .6s;
+
+        &:hover {
+            background-color: #000;
+            color: #50ddaa;
+
+        }
+    }
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 1200px) {
@@ -100,6 +157,7 @@
             height: 35rem;
         }
     }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -121,6 +179,10 @@
                 }
             }
         }
+    }
+
+    #detallePlanes {
+        width: 80vw;
     }
 }
 
@@ -154,6 +216,28 @@
             width: 90vw;
             height: 30rem;
             margin: 1rem 0;
+        }
+    }
+
+    #detallePlanes {
+        margin: 5rem o;
+
+        .items {
+            margin: 3rem auto;
+            width: 40%;
+
+            p {
+                display: block;
+                text-align: center;
+                /* text-decoration:underline #50ddaa; */
+                border-bottom: 2px solid #50ddaa;
+            }
+
+            span {
+                width: 10px;
+                border: 1px solid #50ddaa;
+                visibility: hidden;
+            }
         }
     }
 }

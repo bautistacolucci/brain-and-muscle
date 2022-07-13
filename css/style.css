@@ -54,13 +54,15 @@ li {
 }
 
 /* Footer */
-footer .footer-div {
+footer {
   background-color: #000;
+}
+footer .footer-div {
   color: #fff;
+  font-family: "Raleway";
 }
 footer .footer-div a {
   color: #fff;
-  font-family: "Raleway";
   font-family: 1.3rem;
   transition: 0.4s;
 }
@@ -75,15 +77,16 @@ footer .footer-div h3:hover {
   color: #50ddaa;
 }
 footer .footer-div h4 {
-  font-family: 1.3rem;
-  font-family: "Raleway";
+  font-size: 1.2rem;
 }
 footer .rights {
   background-color: #000;
   text-align: center;
+  border-top: 1.8px solid #50ddaa;
+  width: 40vw;
+  margin: 0 auto;
 }
 footer .rights h4 {
-  border-top: 1.8px solid #50ddaa;
   padding: 1rem;
   color: #fff;
   font-family: "Raleway";
@@ -94,7 +97,6 @@ footer .rights h4 {
 footer .autor {
   background-color: #20aa99;
   color: #000;
-  /* width: 100%; */
 }
 footer .autor a {
   color: #000;
@@ -128,7 +130,7 @@ footer .autor a:hover {
 }
 
 .space-background-2 {
-  height: 50vh;
+  height: 70vh;
   background-image: url("../img/fondo2.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -172,6 +174,10 @@ footer .autor a:hover {
     font-size: 1.2rem;
     line-height: 2.3rem;
   }
+
+  footer .rights {
+    width: 70vw;
+  }
 }
 @media screen and (max-width: 768px) {
   .div-banner {
@@ -189,6 +195,10 @@ footer .autor a:hover {
   .section-container p {
     font-size: 1.1rem;
     line-height: 2.1rem;
+  }
+
+  footer .rights {
+    width: 90vw;
   }
 }
 @media screen and (max-width: 576px) {
@@ -242,7 +252,7 @@ footer .autor a:hover {
   font-family: "Bebas Neue";
 }
 
-/* Sections */
+/* Section cards */
 .section-container-coaching {
   padding: 2.5rem;
   min-height: 100vh;
@@ -287,6 +297,53 @@ footer .autor a:hover {
   backdrop-filter: grayscale(100%) blur(1px) brightness(50%);
 }
 
+/* Section detail */
+#detallePlanes {
+  margin: 5rem auto;
+  width: 50vw;
+  border-top: 3px solid #50ddaa;
+}
+#detallePlanes h3 {
+  margin: 2rem 0;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+}
+#detallePlanes p {
+  font-family: "Raleway" "Poppins";
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+}
+#detallePlanes .items {
+  text-align: center;
+  margin: 4rem 0;
+}
+#detallePlanes .items p {
+  display: inline;
+}
+#detallePlanes .items span {
+  margin: 0 2rem;
+  border: 1px solid #50ddaa;
+}
+#detallePlanes .button {
+  display: block;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  margin: 2rem 0;
+  border-radius: 2px;
+  background-color: #50ddaa;
+  color: #000;
+  transition: 0.6s;
+}
+#detallePlanes .button:hover {
+  background-color: #000;
+  color: #50ddaa;
+}
+
 /* Media Queries */
 @media screen and (min-width: 1200px) {
   .section-container-coaching .micard {
@@ -308,6 +365,10 @@ footer .autor a:hover {
   }
   .section-container-coaching .micard div .detail {
     font-size: 1.5rem;
+  }
+
+  #detallePlanes {
+    width: 80vw;
   }
 }
 @media screen and (max-width: 992px) {
@@ -336,6 +397,25 @@ footer .autor a:hover {
     width: 90vw;
     height: 30rem;
     margin: 1rem 0;
+  }
+
+  #detallePlanes {
+    margin: 5rem o;
+  }
+  #detallePlanes .items {
+    margin: 3rem auto;
+    width: 40%;
+  }
+  #detallePlanes .items p {
+    display: block;
+    text-align: center;
+    /* text-decoration:underline #50ddaa; */
+    border-bottom: 2px solid #50ddaa;
+  }
+  #detallePlanes .items span {
+    width: 10px;
+    border: 1px solid #50ddaa;
+    visibility: hidden;
   }
 }
 
