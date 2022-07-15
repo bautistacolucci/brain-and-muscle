@@ -53,7 +53,7 @@
 
     <main>
         <section>
-            <form action="redireccion.html" method="POST" class="form-envio" netlify>
+            <form action="redireccion.html" name="formulario de contacto" method="POST" class="form-envio" netlify>
                 <h2 class="text-center">Contactanos</h2>
                 <div class="form-div">
                     <input type="text" id="nombre" name="nombre" class="form-input" autocomplete="name" required>
@@ -64,18 +64,17 @@
                     <label for="email" class="form-label">Email</label>
                 </div>
                 <div class="form-div">
-                    <textarea id="mensaje" name="mensaje" class="form-input" required></textarea>
+                    <textarea id="mensaje" name="mensaje" class="form-input textarea" required></textarea>
                     <label for="mensaje" class="form-label">Dejanos tu mensaje</label>
                 </div>
                 <div class="form-div">
-                    <p>Si aun no sabes que plan se adecua a tus necesidades elegi la opción "asesoramiento"</p>
-                    <select name="format" required>
+                    <select name="format" class="select" required>
                         <option selected disabled>Selecciona tu plan</option>
                         <option value="Plan A">Plan A</option>
                         <option value="Plan B">Plan B</option>
                         <option value="Plan C">Plan C</option>
                         <option value="Plan D">Plan D</option>
-                        <option value="asesoramiento">Asesoramiento</option>v
+                        <option value="Contacto">Contacto</option>v
                     </select>
                 </div>
                 <div>

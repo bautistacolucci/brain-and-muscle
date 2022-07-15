@@ -46,7 +46,8 @@ li {
   transition: all 0.5s;
 }
 .section-header .div-nav a:hover {
-  letter-spacing: 1.3px;
+  letter-spacing: 1.4px;
+  color: #50ddaa;
 }
 .section-header .div-banner {
   backdrop-filter: grayscale(100%);
@@ -85,7 +86,7 @@ footer .footer-div h4 {
 footer .rights {
   background-color: #000;
   text-align: center;
-  border-top: 1.8px solid #50ddaa;
+  border-top: 1.8px solid #30bbaa;
   width: 40vw;
   margin: 0 auto;
 }
@@ -248,7 +249,8 @@ footer .autor a:hover {
   transition: all 0.5s;
 }
 .section-header-coaching .div-nav a:hover {
-  letter-spacing: 1.3px;
+  letter-spacing: 1.4px;
+  color: #50ddaa;
 }
 .section-header-coaching .div-banner {
   backdrop-filter: grayscale(100%);
@@ -307,7 +309,7 @@ footer .autor a:hover {
 #detallePlanes {
   margin: 5rem auto;
   width: 50vw;
-  border-top: 3px solid #50ddaa;
+  border-top: 3px solid #30bbaa;
 }
 #detallePlanes h3 {
   margin: 2rem 0;
@@ -316,7 +318,7 @@ footer .autor a:hover {
   font-size: 3rem;
 }
 #detallePlanes p {
-  font-family: "Raleway" "Poppins";
+  font-family: "Raleway";
   font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
@@ -330,7 +332,7 @@ footer .autor a:hover {
 }
 #detallePlanes .items span {
   margin: 0 2rem;
-  border: 1px solid #50ddaa;
+  border: 1px solid #30bbaa;
 }
 #detallePlanes .button {
   display: block;
@@ -338,12 +340,12 @@ footer .autor a:hover {
   font-family: "Bebas Neue";
   font-size: 1.5rem;
   letter-spacing: 2px;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 2rem 0;
   border-radius: 2px;
-  background-color: #50ddaa;
+  background-color: #30bbaa;
   color: #000;
-  transition: 0.6s;
+  transition: 0.5s;
 }
 #detallePlanes .button:hover {
   background-color: #000;
@@ -451,7 +453,8 @@ footer .autor a:hover {
   transition: all 0.5s;
 }
 .section-header-contact .div-nav a:hover {
-  letter-spacing: 1.3px;
+  letter-spacing: 1.4px;
+  color: #50ddaa;
 }
 .section-header-contact .div-banner {
   backdrop-filter: grayscale(100%) brightness(85%);
@@ -462,17 +465,16 @@ footer .autor a:hover {
 }
 
 /* Formulario */
-.textarea {
-  min-height: 0rem;
-  resize: none;
-}
-
 .form-envio {
   margin: 2rem auto;
   padding: 2rem 1rem;
   width: 100%;
   max-width: 50rem;
   border-radius: 5px;
+}
+.form-envio h2 {
+  font-family: "Bebas Neue";
+  font-size: 3rem;
 }
 
 .form-div {
@@ -484,7 +486,10 @@ footer .autor a:hover {
 }
 
 .form-label {
-  color: grey;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #555;
   position: absolute;
   top: 1.5rem;
   transition: 0.25s ease;
@@ -494,53 +499,59 @@ footer .autor a:hover {
   border: 0;
   z-index: 1;
   background-color: transparent;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #30bbaa;
   font-size: 1.125rem;
   padding: 0.25rem 0;
-  resize: none;
 }
 .form-input:focus, .form-input:valid {
   outline: 0;
-  border-bottom-color: #45ddaa;
+  border-bottom-color: #30bbaa;
 }
 .form-input:focus + .form-label, .form-input:valid + .form-label {
-  color: #45ddaa;
+  color: #30bbaa;
   transform: translateY(-1.5rem);
 }
 
+.textarea {
+  min-height: 7rem;
+  resize: none;
+}
+
+.select {
+  border: 2px solid #30bbaa;
+  border-radius: 2px;
+  padding: 0.5rem;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #333;
+}
+
 .form-condiciones {
-  padding: 1rem 1rem;
+  padding: 1.5rem 1rem;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 0.9rem;
   text-align: center;
-  font-size: 0.875rem;
-  color: #8597a3;
-}
-.form-condiciones a {
-  display: block;
-  color: #45ddaa;
-  text-decoration: none;
-  transition: 1s;
-}
-.form-condiciones a:hover {
-  color: black;
+  color: #000;
 }
 
 .form-button {
+  font-family: "Bebas Neue";
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #000;
   margin-top: 2rem;
-  font-size: 1.25rem;
-  padding: 1em;
+  padding: 1rem;
   width: 100%;
-  font-weight: 500;
-  background-color: #45ddaa;
+  background-color: #30bbaa;
   border-radius: 2px;
-  color: #474d52;
   border: 0;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 .form-button:hover {
-  background-color: #45ddaa;
-}
-.form-button:active {
-  background-color: #60ddaa;
+  background-color: #000;
+  color: #50ddaa;
 }
 
 /*# sourceMappingURL=style.css.map */
