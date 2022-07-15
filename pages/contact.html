@@ -53,7 +53,7 @@
 
     <main>
         <section>
-            <form action="../php/suscripcion.php" method="POST" class="form-envio">
+            <form action="redireccion.html" method="POST" class="form-envio" netlify>
                 <h2 class="text-center">Contactanos</h2>
                 <div class="form-div">
                     <input type="text" id="nombre" name="nombre" class="form-input" autocomplete="name" required>
@@ -64,10 +64,11 @@
                     <label for="email" class="form-label">Email</label>
                 </div>
                 <div class="form-div">
-                    <input type="text" id="mensaje" name="mensaje" class="form-input">
+                    <textarea id="mensaje" name="mensaje" class="form-input" required></textarea>
                     <label for="mensaje" class="form-label">Dejanos tu mensaje</label>
                 </div>
                 <div class="form-div">
+                    <p>Si aun no sabes que plan se adecua a tus necesidades elegi la opción "asesoramiento"</p>
                     <select name="format" required>
                         <option selected disabled>Selecciona tu plan</option>
                         <option value="Plan A">Plan A</option>
@@ -84,9 +85,6 @@
                     <p>
                         Nos pondremos en contacto con usted a la brevedad
                     </p>
-                    <a href="redireccion.html">
-                        Terminos y Condiciones
-                    </a>
                 </div>
             </form>
         </section>
