@@ -30,6 +30,9 @@ li {
 .section-header header {
   backdrop-filter: grayscale(100%) blur(1px) brightness(90%);
 }
+.section-header header h1 {
+  font-size: 1.8rem;
+}
 .section-header .titulo {
   font-family: "Bebas Neue";
   font-size: 1.6rem;
@@ -95,7 +98,7 @@ footer .rights h4 {
   display: inline;
 }
 footer .autor {
-  background-color: #20aa99;
+  background-color: #30bbaa;
   color: #000;
 }
 footer .autor a {
@@ -220,7 +223,7 @@ footer .autor a:hover {
 }
 /* Header Coaching */
 .section-header-coaching {
-  background-image: url("../../img/portada2.jpg");
+  background-image: url("../../img/portada2.webp");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -228,6 +231,9 @@ footer .autor a:hover {
 }
 .section-header-coaching header {
   backdrop-filter: grayscale(100%) blur(1px);
+}
+.section-header-coaching header h1 {
+  font-size: 1.8rem;
 }
 .section-header-coaching .titulo {
   font-family: "Bebas Neue";
@@ -417,6 +423,136 @@ footer .autor a:hover {
     border: 1px solid #50ddaa;
     visibility: hidden;
   }
+}
+/* Header Coaching */
+.section-header-contact {
+  background-image: url("../../img/portada3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.section-header-contact header {
+  backdrop-filter: grayscale(100%) blur(1px) brightness(85%);
+}
+.section-header-contact header h1 {
+  font-size: 1.8rem;
+}
+.section-header-contact .titulo {
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+.section-header-contact .div-nav a {
+  font-family: "Bebas Neue";
+  font-size: 1.2rem;
+  color: #fff;
+  letter-spacing: 0.7px;
+  transition: all 0.5s;
+}
+.section-header-contact .div-nav a:hover {
+  letter-spacing: 1.3px;
+}
+.section-header-contact .div-banner {
+  backdrop-filter: grayscale(100%) brightness(85%);
+  padding: 1rem;
+  position: absolute;
+  color: #fff;
+  font-family: "Bebas Neue";
+}
+
+/* Formulario */
+.section-form {
+  background-color: #f0f0f0;
+  box-shadow: 0 0px 20px 0 rgba(153, 153, 153, 0.25);
+  padding-bottom: 1rem;
+}
+
+.carrousel-sorpresa {
+  margin-top: 3rem;
+}
+.carrousel-sorpresa div div img {
+  border-radius: 3px;
+}
+
+.textarea {
+  min-height: 8rem;
+  resize: none;
+}
+
+.form-envio {
+  margin: 1rem auto;
+  padding: 2rem 1rem;
+  width: 100%;
+  max-width: 40rem;
+  border-radius: 5px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.form-label {
+  color: grey;
+  position: absolute;
+  top: 1.5rem;
+  transition: 0.25s ease;
+}
+
+.form-input {
+  border: 0;
+  z-index: 1;
+  background-color: transparent;
+  border-bottom: 2px solid gray;
+  font-size: 1.125rem;
+  padding: 0.25rem 0;
+}
+.form-input:focus, .form-input:valid {
+  outline: 0;
+  border-bottom-color: #45ddaa;
+}
+.form-input:focus + .form-label, .form-input:valid + .form-label {
+  color: #45ddaa;
+  transform: translateY(-1.5rem);
+}
+
+.form-condiciones {
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #8597a3;
+}
+.form-condiciones a {
+  display: block;
+  color: #45ddaa;
+  text-decoration: none;
+  transition: 1s;
+}
+.form-condiciones a:hover {
+  color: black;
+}
+
+.form-button {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  padding: 1em;
+  width: 100%;
+  font-weight: 500;
+  background-color: #45ddaa;
+  border-radius: 6px;
+  color: #474d52;
+  border: 0;
+  transition: 0.4s;
+}
+.form-button:hover {
+  background-color: #45ddaa;
+}
+.form-button:active {
+  background-color: #60ddaa;
 }
 
 /*# sourceMappingURL=style.css.map */

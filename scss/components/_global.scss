@@ -31,6 +31,10 @@ li {
 
     header {
         backdrop-filter: grayscale(100%) blur(1px) brightness(90%);
+
+        h1 {
+            font-size: 1.8rem;
+        }
     }
 
     .titulo {
@@ -116,7 +120,7 @@ footer {
     }
 
     .autor {
-        background-color: #20aa99;
+        background-color: #30bbaa;
         color: #000;
 
         a {

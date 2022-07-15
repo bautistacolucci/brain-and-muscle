@@ -1,6 +1,6 @@
 /* Header Coaching */
 .section-header-coaching {
-    background-image: url('../../img/portada2.jpg');
+    background-image: url('../../img/portada2.webp');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -8,6 +8,9 @@
 
     header {
         backdrop-filter: grayscale(100%) blur(1px);
+        h1{
+            font-size: 1.8rem;
+        }
     }
 
     .titulo {
