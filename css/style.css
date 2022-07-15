@@ -265,10 +265,24 @@ footer .autor a:hover {
   padding: 2.5rem;
   min-height: 100vh;
 }
-.section-container-coaching .micard {
-  background-image: url("../../img/card.jpg");
-  background-size: cover;
+.section-container-coaching .plan-a {
+  background-image: url("../../img/plan-a.webp");
   background-position: center;
+}
+.section-container-coaching .plan-b {
+  background-image: url("../../img/plan-b.webp");
+  background-position: center;
+}
+.section-container-coaching .plan-c {
+  background-image: url("../../img/plan-c.webp");
+  background-position: center;
+}
+.section-container-coaching .plan-d {
+  background-image: url("../../img/plan-d.webp");
+  background-position: top;
+}
+.section-container-coaching .micard {
+  background-size: cover;
   color: #fff;
   margin: 2rem;
 }

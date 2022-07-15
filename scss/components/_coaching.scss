@@ -50,10 +50,31 @@
     padding: 2.5rem;
     min-height: 100vh;
 
-    .micard {
-        background-image: url('../../img/card.jpg');
-        background-size: cover;
+    .plan-a {
+        background-image: url('../../img/plan-a.webp');
         background-position: center;
+    }
+
+    .plan-b {
+        background-image: url('../../img/plan-b.webp');
+        background-position: center;
+    }
+
+    .plan-c {
+        background-image: url('../../img/plan-c.webp');
+        background-position: center;
+    }
+
+    .plan-d {
+        background-image: url('../../img/plan-d.webp');
+        background-position:top;
+        
+    }
+
+    .micard {
+        
+        background-size: cover;
+       
         color: $white;
         margin: 2rem;
 

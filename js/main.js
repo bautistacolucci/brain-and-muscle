@@ -21,16 +21,43 @@ btnPlanA.addEventListener("click", () => {
 });
 btnPlanB.addEventListener("click", () => {
     detallePlanes.innerHTML = "";
-    divPlanes.innerHTML = `<h2 id="detallePlan">Hola</h2>`;
+    divPlanes.innerHTML = `<h3>Plan B</h3>
+    <p>Ideal para quien desea generar un cambio grande pero no sabe como hacerlo, nos encargamos de planificar la
+      alimentacion diaria, rutina, y realizamos calculo de grasa corporal mediante plicometria para lograr una mayor
+      precision en los resultados</p>
+    <div class="items">
+      <p>Dieta cerrada</p> <span></span>
+      <p>Mesociclo</p> <span></span>
+      <p>Plicometria</p>
+    </div>
+    <a href="contact.html" class="button"> Contactar </a>`;
     detallePlanes.appendChild(divPlanes);
 });
 btnPlanC.addEventListener("click", () => {
     detallePlanes.innerHTML = "";
-    divPlanes.innerHTML = `<h2 id="detallePlan">Hola</h2>`;
+    divPlanes.innerHTML = `<h3>Plan C</h3>
+    <p>Ideal para quien desea generar un cambio grande pero no sabe como hacerlo, nos encargamos de planificar la
+      alimentacion diaria, rutina, y realizamos calculo de grasa corporal mediante plicometria para lograr una mayor
+      precision en los resultados</p>
+    <div class="items">
+      <p>Dieta cerrada</p> <span></span>
+      <p>Mesociclo</p> <span></span>
+      <p>Plicometria</p>
+    </div>
+    <a href="contact.html" class="button"> Contactar </a>`;
     detallePlanes.appendChild(divPlanes);
 });
 btnPlanD.addEventListener("click", () => {
     detallePlanes.innerHTML = "";
-    divPlanes.innerHTML = `<h2 id="detallePlan">Hola</h2>`;
+    divPlanes.innerHTML = `<h3>Plan D</h3>
+    <p>Ideal para quien desea generar un cambio grande pero no sabe como hacerlo, nos encargamos de planificar la
+      alimentacion diaria, rutina, y realizamos calculo de grasa corporal mediante plicometria para lograr una mayor
+      precision en los resultados</p>
+    <div class="items">
+      <p>Dieta cerrada</p> <span></span>
+      <p>Mesociclo</p> <span></span>
+      <p>Plicometria</p>
+    </div>
+    <a href="contact.html" class="button"> Contactar </a>`;
     detallePlanes.appendChild(divPlanes);
 });
