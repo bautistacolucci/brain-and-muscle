@@ -23,8 +23,9 @@ li {
 .section-header {
   background-image: url("../img/portada.webp");
   background-attachment: fixed;
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   height: 100vh;
 }
 .section-header header {
@@ -127,23 +128,26 @@ footer .autor a:hover {
 .space-background {
   height: 50vh;
   background-image: url("../img/fondo.webp");
-  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .space-background-2 {
   height: 70vh;
   background-image: url("../img/fondo2.webp");
-  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 /* Media Queries */
 @media screen and (min-width: 992px) {
+  /* .section-header{
+
+  } */
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -206,6 +210,10 @@ footer .autor a:hover {
   }
 }
 @media screen and (max-width: 576px) {
+  .section-header {
+    background-size: cover;
+  }
+
   .div-banner {
     bottom: 8vh;
     left: 4vw;
