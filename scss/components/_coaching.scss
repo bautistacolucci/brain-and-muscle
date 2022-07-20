@@ -1,48 +1,8 @@
 @import '../base/colors';
 
 /* Header Coaching */
-.section-header-coaching {
+.coaching {
     background-image: url('../../img/portada2.webp');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-
-    header {
-        backdrop-filter: grayscale(100%) blur(1px);
-        h1{
-            font-size: 1.8rem;
-        }
-    }
-
-    .titulo {
-        font-family: 'Bebas Neue';
-        font-size: 1.6rem;
-        margin-left: 2rem;
-    }
-
-    .div-nav {
-        a {
-            font-family: 'Bebas Neue';
-            font-size: 1.2rem;
-            color: $white;
-            letter-spacing: .7px;
-            transition: all .5s;
-
-            &:hover {
-                letter-spacing: 1.4px;
-                color: $lightgreen;
-            }
-        }
-    }
-
-    .div-banner {
-        backdrop-filter: grayscale(100%);
-        padding: 1rem;
-        position: absolute;
-        color: $white;
-        font-family: 'Bebas Neue';
-    }
 }
 
 /* Section cards */

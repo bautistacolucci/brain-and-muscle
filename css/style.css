@@ -22,10 +22,6 @@ li {
 /* Header y banner */
 .section-header {
   background-image: url("../img/portada.webp");
-  /*  background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: contain; */
   height: 100vh;
 }
 .section-header header {
@@ -128,26 +124,21 @@ footer .autor a:hover {
 .space-background {
   height: 50vh;
   background-image: url("../img/fondo.webp");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .space-background-2 {
   height: 70vh;
   background-image: url("../img/fondo2.webp");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 /* Media Queries */
 @media screen and (min-width: 992px) {
-  /* .section-header{
+  .section-header {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 
-  } */
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -164,8 +155,26 @@ footer .autor a:hover {
     font-size: 1.2rem;
     line-height: 2.3rem;
   }
+
+  .space-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .space-background-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 }
 @media screen and (max-width: 992px) {
+  .section-header {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -186,8 +195,26 @@ footer .autor a:hover {
   footer .rights {
     width: 70vw;
   }
+
+  .space-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .space-background-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 }
 @media screen and (max-width: 768px) {
+  .section-header {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -211,6 +238,12 @@ footer .autor a:hover {
 }
 @media screen and (max-width: 576px) {
   .section-header {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+  }
+
+  .section-header {
     background-size: cover;
   }
 
@@ -229,43 +262,22 @@ footer .autor a:hover {
   .section-container p {
     font-size: 1.1rem;
   }
+
+  .space-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+  }
+
+  .space-background-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 }
 /* Header Coaching */
-.section-header-coaching {
+.coaching {
   background-image: url("../../img/portada2.webp");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-.section-header-coaching header {
-  backdrop-filter: grayscale(100%) blur(1px);
-}
-.section-header-coaching header h1 {
-  font-size: 1.8rem;
-}
-.section-header-coaching .titulo {
-  font-family: "Bebas Neue";
-  font-size: 1.6rem;
-  margin-left: 2rem;
-}
-.section-header-coaching .div-nav a {
-  font-family: "Bebas Neue";
-  font-size: 1.2rem;
-  color: #fff;
-  letter-spacing: 0.7px;
-  transition: all 0.5s;
-}
-.section-header-coaching .div-nav a:hover {
-  letter-spacing: 1.4px;
-  color: #50ddaa;
-}
-.section-header-coaching .div-banner {
-  backdrop-filter: grayscale(100%);
-  padding: 1rem;
-  position: absolute;
-  color: #fff;
-  font-family: "Bebas Neue";
 }
 
 /* Section cards */
@@ -449,41 +461,8 @@ footer .autor a:hover {
   }
 }
 /* Header Coaching */
-.section-header-contact {
+.contact {
   background-image: url("../../img/portada3.webp");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-.section-header-contact header {
-  backdrop-filter: grayscale(100%) blur(1px) brightness(85%);
-}
-.section-header-contact header h1 {
-  font-size: 1.8rem;
-}
-.section-header-contact .titulo {
-  font-family: "Bebas Neue";
-  font-size: 1.6rem;
-  margin-left: 2rem;
-}
-.section-header-contact .div-nav a {
-  font-family: "Bebas Neue";
-  font-size: 1.2rem;
-  color: #fff;
-  letter-spacing: 0.7px;
-  transition: all 0.5s;
-}
-.section-header-contact .div-nav a:hover {
-  letter-spacing: 1.4px;
-  color: #50ddaa;
-}
-.section-header-contact .div-banner {
-  backdrop-filter: grayscale(100%) brightness(85%);
-  padding: 1rem;
-  position: absolute;
-  color: #fff;
-  font-family: "Bebas Neue";
 }
 
 /* Formulario */

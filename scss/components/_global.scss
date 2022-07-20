@@ -26,10 +26,6 @@ li {
 /* Header y banner */
 .section-header {
     background-image: url("../img/portada.webp");
-   /*  background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain; */
     height: 100vh;
 
     header {
@@ -157,28 +153,25 @@ footer {
 .space-background {
     height: 50vh;
     background-image: url("../img/fondo.webp");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
 }
 
 .space-background-2 {
     height: 70vh;
     background-image: url("../img/fondo2.webp");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
 }
 
 
 /* Media Queries */
 
 @media screen and (min-width: 992px) {
-/* .section-header{
-    
-} */
+    .section-header {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
     .div-banner {
         bottom: 10vh;
         left: 5vw;
@@ -199,9 +192,27 @@ footer {
             line-height: 2.3rem;
         }
     }
+
+    .space-background {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .space-background-2 {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 992px) {
+    .section-header {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
     .div-banner {
         bottom: 10vh;
         left: 5vw;
@@ -228,9 +239,26 @@ footer {
             width: 70vw;
         }
     }
+    .space-background {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .space-background-2 {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .section-header {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
     .div-banner {
         bottom: 10vh;
         left: 5vw;
@@ -261,8 +289,15 @@ footer {
 
 @media screen and (max-width: 576px) {
     .section-header {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: auto;
+    }
+
+    .section-header {
         background-size: cover;
     }
+
     .div-banner {
         bottom: 8vh;
         left: 4vw;
@@ -281,5 +316,16 @@ footer {
         p {
             font-size: 1.1rem;
         }
+    }
+    .space-background {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: auto;
+    }
+
+    .space-background-2 {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
     }
 }
