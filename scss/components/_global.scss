@@ -291,10 +291,7 @@ footer {
 
 @media screen and (max-width: 576px) {
     .section-header {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto;
+        background: no-repeat center/cover url("../img/portada.webp");
     }
 
     .section-header {
