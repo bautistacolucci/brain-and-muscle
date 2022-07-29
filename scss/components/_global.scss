@@ -155,8 +155,8 @@ footer {
 
 .space-background {
     height: 50vh;
-    background-image: url("../img/fondo.webp");
-
+    background: no-repeat center/cover url("../img/fondo.webp");
+    background-attachment: fixed;
 }
 
 .space-background-2 {
@@ -194,7 +194,7 @@ footer {
         }
     }
 
-    .space-background {
+   /*  .space-background {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
@@ -204,7 +204,7 @@ footer {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-    }
+    } */
 }
 
 @media screen and (max-width: 992px) {
@@ -239,7 +239,7 @@ footer {
         }
     }
 
-    .space-background {
+  /*   .space-background {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
@@ -249,7 +249,7 @@ footer {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -310,7 +310,7 @@ footer {
         }
     }
 
-    .space-background {
+  /*   .space-background {
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
@@ -322,5 +322,5 @@ footer {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-    }
+    } */
 }
