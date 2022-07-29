@@ -257,7 +257,13 @@ footer .autor a:hover {
   }
 
   .space-background {
-    background: no-repeat center/cover url("../img/fondo.webp");
+    background: no-repeat center/auto url("../img/fondo.webp");
+    background-attachment: fixed;
+  }
+
+  .space-background-2 {
+    background-image: url("../img/fondo2.webp");
+    background: no-repeat center/cover url("../img/fondo2.webp");
     background-attachment: fixed;
   }
 
