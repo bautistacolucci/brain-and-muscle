@@ -223,10 +223,6 @@ footer .autor a:hover {
   }
 }
 @media screen and (max-width: 576px) {
-  .section-header {
-    background: no-repeat center/cover url("../img/portada.webp");
-  }
-
   .div-banner {
     bottom: 8vh;
     left: 4vw;
