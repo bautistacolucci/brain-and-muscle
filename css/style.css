@@ -127,13 +127,12 @@ footer .autor a:hover {
 
 .space-background {
   height: 50vh;
-  background: no-repeat center/cover url("../img/fondo.webp");
-  background-attachment: fixed;
+  background: no-repeat fixed center/cover url("../img/fondo.webp");
 }
 
 .space-background-2 {
   height: 70vh;
-  background-image: url("../img/fondo2.webp");
+  background: no-repeat fixed center/cover url("../img/fondo2.webp");
 }
 
 /* Media Queries */
@@ -158,18 +157,6 @@ footer .autor a:hover {
     font-size: 1.2rem;
     line-height: 2.3rem;
   }
-
-  /*  .space-background {
-       background-attachment: fixed;
-       background-position: center;
-       background-size: cover;
-   }
-
-   .space-background-2 {
-       background-attachment: fixed;
-       background-position: center;
-       background-size: cover;
-   } */
 }
 @media screen and (max-width: 992px) {
   .section-header {
@@ -196,18 +183,6 @@ footer .autor a:hover {
   footer .rights {
     width: 70vw;
   }
-
-  /*   .space-background {
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .space-background-2 {
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    } */
 }
 @media screen and (max-width: 768px) {
   .section-header {
@@ -255,31 +230,6 @@ footer .autor a:hover {
   .section-container p {
     font-size: 1.1rem;
   }
-
-  .space-background {
-    background: no-repeat center/auto url("../img/fondo.webp");
-    background-attachment: fixed;
-  }
-
-  .space-background-2 {
-    background-image: url("../img/fondo2.webp");
-    background: no-repeat center/cover url("../img/fondo2.webp");
-    background-attachment: fixed;
-  }
-
-  /*   .space-background {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto;
-    }
-
-    .space-background-2 {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    } */
 }
 /* Header Coaching */
 .coaching {
