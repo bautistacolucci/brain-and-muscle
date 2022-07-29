@@ -26,6 +26,7 @@ li {
 
 .section-header {
   height: 100vh;
+  background-attachment: fixed;
 }
 .section-header header {
   backdrop-filter: grayscale(100%) blur(1px) brightness(90%);
@@ -253,6 +254,11 @@ footer .autor a:hover {
   }
   .section-container p {
     font-size: 1.1rem;
+  }
+
+  .space-background {
+    background: no-repeat center/cover url("../img/fondo.webp");
+    background-attachment: fixed;
   }
 
   /*   .space-background {
