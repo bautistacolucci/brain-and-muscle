@@ -2,8 +2,7 @@
 
 /* Header Coaching */
 .coaching {
-    background: no-repeat center/cover url('../../img/portada2.webp');
-    background-attachment: fixed;
+    background-image: url('../../img/portada2.webp');
 }
 
 /* Section cards */
@@ -33,9 +32,7 @@
     }
 
     .micard {
-        
         background-size: cover;
-       
         color: $white;
         margin: 2rem;
 
