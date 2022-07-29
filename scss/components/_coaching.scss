@@ -2,7 +2,8 @@
 
 /* Header Coaching */
 .coaching {
-    background-image: url('../../img/portada2.webp');
+    background: no-repeat center/cover url('../../img/portada2.webp');
+    background-attachment: fixed;
 }
 
 /* Section cards */

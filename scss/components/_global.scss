@@ -24,8 +24,12 @@ li {
 }
 
 /* Header y banner */
+.home {
+    background: no-repeat center/cover url("../img/portada.webp");
+    background-attachment: fixed;
+}
+
 .section-header {
-    background-image: url("../img/portada.webp");
     height: 100vh;
 
     header {
@@ -166,11 +170,6 @@ footer {
 /* Media Queries */
 
 @media screen and (min-width: 992px) {
-    .section-header {
-        background-attachment: fixed;
-        background: no-repeat center/cover url("../img/portada.webp");
-        
-    }
 
     .div-banner {
         bottom: 10vh;
@@ -207,12 +206,6 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    .section-header {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 
     .div-banner {
         bottom: 10vh;
@@ -240,6 +233,7 @@ footer {
             width: 70vw;
         }
     }
+
     .space-background {
         background-attachment: fixed;
         background-position: center;
@@ -254,12 +248,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .section-header {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 
     .div-banner {
         bottom: 10vh;
@@ -294,10 +282,6 @@ footer {
         background: no-repeat center/cover url("../img/portada.webp");
     }
 
-    .section-header {
-        background-size: cover;
-    }
-
     .div-banner {
         bottom: 8vh;
         left: 4vw;
@@ -317,6 +301,7 @@ footer {
             font-size: 1.1rem;
         }
     }
+
     .space-background {
         background-attachment: fixed;
         background-repeat: no-repeat;

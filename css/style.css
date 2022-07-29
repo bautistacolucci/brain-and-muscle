@@ -20,8 +20,12 @@ li {
 }
 
 /* Header y banner */
+.home {
+  background: no-repeat center/cover url("../img/portada.webp");
+  background-attachment: fixed;
+}
+
 .section-header {
-  background-image: url("../img/portada.webp");
   height: 100vh;
 }
 .section-header header {
@@ -133,11 +137,6 @@ footer .autor a:hover {
 
 /* Media Queries */
 @media screen and (min-width: 992px) {
-  .section-header {
-    background-attachment: fixed;
-    background: no-repeat center/cover url("../img/portada.webp");
-  }
-
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -168,13 +167,6 @@ footer .autor a:hover {
   }
 }
 @media screen and (max-width: 992px) {
-  .section-header {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -209,13 +201,6 @@ footer .autor a:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  .section-header {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
   .div-banner {
     bottom: 10vh;
     left: 5vw;
@@ -240,10 +225,6 @@ footer .autor a:hover {
 @media screen and (max-width: 576px) {
   .section-header {
     background: no-repeat center/cover url("../img/portada.webp");
-  }
-
-  .section-header {
-    background-size: cover;
   }
 
   .div-banner {
@@ -278,7 +259,8 @@ footer .autor a:hover {
 }
 /* Header Coaching */
 .coaching {
-  background-image: url("../../img/portada2.webp");
+  background: no-repeat center/cover url("../../img/portada2.webp");
+  background-attachment: fixed;
 }
 
 /* Section cards */
@@ -463,7 +445,8 @@ footer .autor a:hover {
 }
 /* Header Coaching */
 .contact {
-  background-image: url("../../img/portada3.webp");
+  background: no-repeat center/cover url("../../img/portada3.webp");
+  background-attachment: fixed;
 }
 
 /* Formulario */

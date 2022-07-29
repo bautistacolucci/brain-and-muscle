@@ -2,7 +2,8 @@
 
 /* Header Coaching */
 .contact {
-	background-image: url('../../img/portada3.webp');
+	background: no-repeat center/cover url('../../img/portada3.webp');
+    background-attachment: fixed;
 }
 
 /* Formulario */
