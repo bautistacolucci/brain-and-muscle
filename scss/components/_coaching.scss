@@ -9,7 +9,6 @@
 .section-container-coaching {
     padding: 2.5rem;
     min-height: 100vh;
-    scroll-behavior: smooth;
 
     .plan-a {
         background-image: url('../../img/plan-a.webp');
@@ -36,7 +35,6 @@
         background-size: cover;
         color: $white;
         margin: 2rem;
-        scroll-behavior: smooth;
 
         div {
             position: relative;
@@ -81,7 +79,6 @@
 /* Section detail */
 
 #detallePlanes {
-    scroll-behavior: smooth;
     margin: 5rem auto;
     width: 50vw;
     border-top: 3px solid $lightblue;

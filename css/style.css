@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -249,7 +253,6 @@ footer .autor a:hover {
 .section-container-coaching {
   padding: 2.5rem;
   min-height: 100vh;
-  scroll-behavior: smooth;
 }
 .section-container-coaching .plan-a {
   background-image: url("../../img/plan-a.webp");
@@ -271,7 +274,6 @@ footer .autor a:hover {
   background-size: cover;
   color: #fff;
   margin: 2rem;
-  scroll-behavior: smooth;
 }
 .section-container-coaching .micard div {
   position: relative;
@@ -308,7 +310,6 @@ footer .autor a:hover {
 
 /* Section detail */
 #detallePlanes {
-  scroll-behavior: smooth;
   margin: 5rem auto;
   width: 50vw;
   border-top: 3px solid #30bbaa;
