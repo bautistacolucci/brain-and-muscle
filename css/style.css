@@ -21,7 +21,7 @@ li {
 
 /* Header y banner */
 .home {
-  background: no-repeat fixed center/cover url("../img/portada.webp");
+  background: no-repeat center/cover url("../img/portada.webp");
 }
 
 .section-header {
@@ -126,12 +126,12 @@ footer .autor a:hover {
 
 .space-background {
   height: 50vh;
-  background: no-repeat fixed center/cover url("../img/fondo.webp");
+  background: no-repeat center/cover url("../img/fondo.webp");
 }
 
 .space-background-2 {
   height: 70vh;
-  background: no-repeat fixed center/cover url("../img/fondo2.webp");
+  background: no-repeat center/cover url("../img/fondo2.webp");
 }
 
 /* Media Queries */
@@ -231,11 +231,11 @@ footer .autor a:hover {
   }
 
   .space-background {
-    background: no-repeat fixed center/cover url("../img/fondo.webp");
+    background: no-repeat center/cover url("../img/fondo.webp");
   }
 
   .space-background-2 {
-    background: no-repeat fixed center/cover url("../img/fondo2.webp");
+    background: no-repeat center/cover url("../img/fondo2.webp");
   }
 }
 /* Header Coaching */
