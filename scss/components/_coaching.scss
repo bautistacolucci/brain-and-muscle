@@ -9,6 +9,7 @@
 .section-container-coaching {
     padding: 2.5rem;
     min-height: 100vh;
+    scroll-behavior: smooth;
 
     .plan-a {
         background-image: url('../../img/plan-a.webp');
@@ -54,7 +55,6 @@
 
             .detail {
                 display: block;
-
                 font-family: 'Bebas Neue';
                 font-size: 2rem;
                 letter-spacing: 10px;
@@ -63,6 +63,7 @@
                 position: relative;
                 top: 70%;
                 transition: .5s;
+                
 
                 &:hover {
                     color: $lightgreen;
