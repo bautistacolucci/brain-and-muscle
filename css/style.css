@@ -271,6 +271,7 @@ footer .autor a:hover {
   background-size: cover;
   color: #fff;
   margin: 2rem;
+  scroll-behavior: smooth;
 }
 .section-container-coaching .micard div {
   position: relative;
@@ -307,6 +308,7 @@ footer .autor a:hover {
 
 /* Section detail */
 #detallePlanes {
+  scroll-behavior: smooth;
   margin: 5rem auto;
   width: 50vw;
   border-top: 3px solid #30bbaa;

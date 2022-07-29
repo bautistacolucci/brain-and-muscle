@@ -36,6 +36,7 @@
         background-size: cover;
         color: $white;
         margin: 2rem;
+        scroll-behavior: smooth;
 
         div {
             position: relative;
@@ -80,6 +81,7 @@
 /* Section detail */
 
 #detallePlanes {
+    scroll-behavior: smooth;
     margin: 5rem auto;
     width: 50vw;
     border-top: 3px solid $lightblue;
