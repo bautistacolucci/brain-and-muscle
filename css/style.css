@@ -21,12 +21,11 @@ li {
 
 /* Header y banner */
 .home {
-  background: no-repeat center/cover url("../img/portada.webp");
+  background: no-repeat fixed center/cover url("../img/portada.webp");
 }
 
 .section-header {
   height: 100vh;
-  background-attachment: fixed;
 }
 .section-header header {
   backdrop-filter: grayscale(100%) blur(1px) brightness(90%);
@@ -212,7 +211,7 @@ footer .autor a:hover {
 }
 @media screen and (max-width: 576px) {
   .section-header {
-    background: no-repeat center/cover url("../img/portada.webp");
+    background: no-repeat fixed center/cover url("../img/portada.webp");
   }
 
   .div-banner {
@@ -229,6 +228,14 @@ footer .autor a:hover {
   }
   .section-container p {
     font-size: 1.1rem;
+  }
+
+  .space-background {
+    background: no-repeat fixed center/cover url("../img/fondo.webp");
+  }
+
+  .space-background-2 {
+    background: no-repeat fixed center/cover url("../img/fondo2.webp");
   }
 }
 /* Header Coaching */
