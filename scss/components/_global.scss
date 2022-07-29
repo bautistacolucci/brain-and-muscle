@@ -156,7 +156,7 @@ footer {
 .space-background {
     height: 50vh;
     background: no-repeat center/cover url("../img/fondo.webp");
-    
+    background-attachment: fixed;
 }
 
 .space-background-2 {
