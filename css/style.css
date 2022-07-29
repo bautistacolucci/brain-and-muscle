@@ -135,7 +135,7 @@ footer .autor a:hover {
 @media screen and (min-width: 992px) {
   .section-header {
     background-attachment: fixed;
-    background: no-repeat center/cover;
+    background: no-repeat center/cover url("../img/portada.webp");
   }
 
   .div-banner {
