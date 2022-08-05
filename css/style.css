@@ -135,7 +135,7 @@ footer .autor a:hover {
 }
 
 .space-background-2 {
-  height: 70vh;
+  height: 75vh;
   background: no-repeat center/cover url("../img/fondo2.webp");
   background-attachment: fixed;
 }
