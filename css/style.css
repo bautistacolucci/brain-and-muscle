@@ -116,20 +116,24 @@ footer .autor a:hover {
 
 /* Sections */
 .section-container {
-  min-height: 50vh;
+  min-height: 40vh;
+  font-family: "Poppins";
 }
 .section-container h2 {
-  font-family: "Poppins";
   font-size: 2rem;
-  text-align: start;
+  text-align: center;
+  margin: 1rem;
 }
 .section-container p {
-  font-family: "Raleway";
-  text-align: justify;
+  font-weight: 300;
+  text-align: center;
+}
+.section-container p span {
+  font-weight: 500;
 }
 
 .space-background {
-  height: 50vh;
+  height: 35vh;
   background: no-repeat center/cover url("../img/fondo.webp");
   background-attachment: fixed;
 }
@@ -204,7 +208,7 @@ footer .autor a:hover {
   }
 
   .section-container div {
-    padding: 3rem 5rem;
+    padding: 3rem 2rem;
   }
   .section-container p {
     font-size: 1.1rem;
@@ -230,7 +234,7 @@ footer .autor a:hover {
   }
 
   .section-container div {
-    padding: 4rem 2.5rem;
+    padding: 4rem 1rem;
   }
   .section-container p {
     font-size: 1.1rem;
@@ -280,15 +284,17 @@ footer .autor a:hover {
   width: 100%;
   height: 100%;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .section-container-coaching .micard div h2 {
   font-family: "Bebas Neue";
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   text-align: center;
-  position: relative;
-  top: 40%;
+  padding: 0 2rem;
 }
 .section-container-coaching .micard div .detail {
   display: block;
@@ -297,9 +303,8 @@ footer .autor a:hover {
   letter-spacing: 10px;
   color: #fff;
   text-align: center;
-  position: relative;
-  top: 70%;
   transition: 0.5s;
+  margin-top: 3rem;
 }
 .section-container-coaching .micard div .detail:hover {
   color: #50ddaa;
@@ -359,7 +364,7 @@ footer .autor a:hover {
 @media screen and (min-width: 1200px) {
   .section-container-coaching .micard {
     width: 40vw;
-    height: 35rem;
+    height: 40rem;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -367,12 +372,12 @@ footer .autor a:hover {
     padding: 1rem;
   }
   .section-container-coaching .micard {
-    width: 40vw;
-    height: 25rem;
-    margin: 1.5rem;
+    width: 42vw;
+    height: 40rem;
+    margin: 1rem;
   }
   .section-container-coaching .micard div h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .section-container-coaching .micard div .detail {
     font-size: 1.5rem;
@@ -388,7 +393,10 @@ footer .autor a:hover {
   }
   .section-container-coaching .micard {
     width: 90vw;
-    height: 40rem;
+    height: 45rem;
+  }
+  .section-container-coaching .micard div h2 {
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -408,6 +416,11 @@ footer .autor a:hover {
     width: 90vw;
     height: 30rem;
     margin: 1rem 0;
+  }
+  .section-container-coaching .micard div h2 {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding: 0;
   }
 
   #detallePlanes {

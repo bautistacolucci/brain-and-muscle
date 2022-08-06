@@ -143,22 +143,27 @@ footer {
 
 /* Sections */
 .section-container {
-    min-height: 50vh;
+    min-height: 40vh;
+    font-family: 'Poppins';
 
     h2 {
-        font-family: 'Poppins';
         font-size: 2rem;
-        text-align: start;
+        text-align: center;
+        margin: 1rem;
     }
 
     p {
-        font-family: 'Raleway';
-        text-align: justify;
+        font-weight: 300;
+        text-align: center;
+
+        span {
+            font-weight: 500;
+        }
     }
 }
 
 .space-background {
-    height: 50vh;
+    height: 35vh;
     background: no-repeat center/cover url("../img/fondo.webp");
     background-attachment: fixed;
 }
@@ -250,7 +255,7 @@ footer {
 
     .section-container {
         div {
-            padding: 3rem 5rem;
+            padding: 3rem 2rem;
         }
 
         p {
@@ -283,7 +288,7 @@ footer {
 
     .section-container {
         div {
-            padding: 4rem 2.5rem;
+            padding: 4rem 1rem;
         }
 
         p {
