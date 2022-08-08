@@ -60,6 +60,18 @@ li {
   color: #fff;
   font-family: "Bebas Neue";
 }
+.section-header .down {
+  position: absolute;
+  bottom: 5%;
+  left: 49%;
+}
+.section-header .down a {
+  color: #fff;
+  transition: 0.3s;
+}
+.section-header .down a:hover {
+  color: #50ddaa;
+}
 
 /* Footer */
 footer {
@@ -67,19 +79,20 @@ footer {
 }
 footer .footer-div {
   color: #fff;
-  font-family: "Raleway";
+  font-family: "Poppins";
+  font-weight: 300;
 }
 footer .footer-div a {
   color: #fff;
   font-family: 1.3rem;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 footer .footer-div a:hover {
   color: #50ddaa;
 }
 footer .footer-div h3 {
   font-family: "Bebas Neue";
-  transition: 0.4s;
+  transition: 0.3s;
 }
 footer .footer-div h3:hover {
   color: #50ddaa;
@@ -108,7 +121,7 @@ footer .autor {
 }
 footer .autor a {
   color: #000;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 footer .autor a:hover {
   color: #fff;
@@ -130,6 +143,12 @@ footer .autor a:hover {
 }
 .section-container p span {
   font-weight: 500;
+}
+.section-container p span a {
+  text-decoration: underline;
+}
+.section-container p span a:hover {
+  color: #30bbaa;
 }
 
 .space-background {

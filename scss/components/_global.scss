@@ -71,6 +71,21 @@ li {
         color: $white;
         font-family: 'Bebas Neue';
     }
+
+    .down {
+        position: absolute;
+        bottom: 5%;
+        left: 49%;
+
+        a {
+            color: $white;
+            transition: .3s;
+
+            &:hover {
+                color: $lightgreen;
+            }
+        }
+    }
 }
 
 /* Footer */
@@ -79,13 +94,14 @@ footer {
 
     .footer-div {
         color: $white;
-        font-family: 'Raleway';
+        font-family: 'Poppins';
+        font-weight: 300;
 
         a {
             color: $white;
 
             font-family: 1.3rem;
-            transition: .4s;
+            transition: .3s;
 
             &:hover {
                 color: $lightgreen;
@@ -94,7 +110,7 @@ footer {
 
         h3 {
             font-family: 'Bebas Neue';
-            transition: .4s;
+            transition: .3s;
 
             &:hover {
                 color: $lightgreen;
@@ -132,7 +148,7 @@ footer {
 
         a {
             color: $black;
-            transition: .5s;
+            transition: .3s;
 
             &:hover {
                 color: $white;
@@ -158,6 +174,14 @@ footer {
 
         span {
             font-weight: 500;
+
+            a {
+                text-decoration: underline;
+
+                &:hover {
+                    color: $lightblue;
+                }
+            }
         }
     }
 }

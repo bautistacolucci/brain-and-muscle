@@ -25,7 +25,7 @@ btnPlanB.addEventListener("click", () => {
     detallePlanes.innerHTML = "";
     divPlanes.innerHTML = `<h3>Plan entrenamiento & dieta pautada </h3>
     <p>
-    Se pauta un día donde pueda hacerte una plicometria que no es más que medir tu % de grasa corporal y en base a tus necesidades energéticas, tu actividad física y tu meta en particular (como puede ser el buscar bajar % graso o ganancia de masa muscular o en casos muy específicos una recomposición corporal que es un poco de ambos). Con todos los datos se calculan de forma precisa los macronutrientes que tu cuerpo necesita, y en base a esto se realiza una lista de comidas por día con cantidades exactas y demás. Se va a tener en cuenta tus preferencias para que sean comidas de tu agrado pero que se acoplen al objetivo.
+    Se pauta un día donde pueda hacerte una plicometría que no es más que medir tu % de grasa corporal y en base a tus necesidades energéticas, tu actividad física y tu meta en particular (como puede ser el buscar bajar % graso o ganancia de masa muscular o en casos muy específicos una recomposición corporal que es un poco de ambos). Con todos los datos se calculan de forma precisa los macronutrientes que tu cuerpo necesita, y en base a esto se realiza una lista de comidas por día con cantidades exactas y demás. Se va a tener en cuenta tus preferencias para que sean comidas de tu agrado pero que se acoplen al objetivo.
     También viene incluído el mesociclo más el diario de entrenamiento y días en concreto para revisión técnica.
     </p> 
     <div class="items">
@@ -54,7 +54,7 @@ btnPlanD.addEventListener("click", () => {
     detallePlanes.innerHTML = "";
     divPlanes.innerHTML = `<h3>Plan Macros</h3>
     <p>
-    En este plan también voy a hacerte una plicometria, pero nos vamos a manejar con macronutrientes (proteínas, grasas y carbohidratos), es decir, yo voy a pasarte cuáles son los macros que necesitas (ej: Proteina:180g, Grasas:70g, Hidratos: 385g) macros con los que llegarías a tus calorías objetivo, vas utilizar una app para registrar tus comidas y donde me vas enviar como vas, yo voy a estar para ayudarte a llegar a tus requerimientos de una forma eficaz y precisa.
+    En este plan también voy a hacerte una plicometría, pero nos vamos a manejar con macronutrientes (proteínas, grasas y carbohidratos), es decir, yo voy a pasarte cuáles son los macros que necesitas (ej: Proteina:180g, Grasas:70g, Hidratos: 385g) macros con los que llegarías a tus calorías objetivo, vas utilizar una app para registrar tus comidas y donde me vas enviar como vas, yo voy a estar para ayudarte a llegar a tus requerimientos de una forma eficaz y precisa.
     </p>
     <div class="items">
     <p>Macros</p> <span></span>
